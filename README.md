@@ -16,5 +16,59 @@ SafeBite is designed for desktop browsers and mobile browsers, including:
 - Firefox
 - Brave
 
+# Overview
+
+SafeBite is a full-stack web application built to understand food recall. The project uses a React front end, a Node.js/Express back end, Supabase for database storage, and the openFDA Food Enforcement API as the external public data source.
+
+The application has three main pages:
+
+1. Home Page
+Shows food recall results, recall reasons, product descriptions, classification levels, distribution areas, and search/filter features.
+
+2. About Page
+Explains the food safety information problem, the stakeholders, and the purpose of the project.
+
+3. Help Page
+Explains how users can search for products, apply filters, and understand recall information.
+
+## Project Overview
+
+SafeBite is a full-stack web application built for the INST 377 final project. The project uses a React front end, a Node.js/Express back end, Supabase for database storage, and the openFDA Food Enforcement API as the external public data source.
+
+The application has three main pages:
+
+1. Home Page
+Shows food recall results, recall reasons, product descriptions, classification levels, distribution areas, and search/filter features.
+
+2. About Page
+Explains the food safety information problem, the stakeholders, and the purpose of the project.
+
+3. Help Page
+Explains how users can search for products, apply filters, and understand recall information.
+
+The front end communicates with the back end through Fetch API calls. The back end handles database requests through Supabase and external recall data requests through the openFDA API.  
+
+# Technology Stack
+
+# Front End
+
+- React
+- HTML
+- CSS
+- JavaScript
+- Fetch API
+- Chart.js
+- React Icons
+
+# Back End
+
+- Node.js
+- Express.js
+- Supabase
+- openFDA Food Enforcement API
+
+
+
+
 
 
